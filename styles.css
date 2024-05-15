@@ -1,23 +1,11 @@
-body{
-    background-color: blue;
-    margin: 0;
-    }
-    
-    .content{
-    background-image: url("MEDIA/logo.jpg");
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    background-position: right top;
-    max-width: 570px;
-    height: 207px;
-    position: relative;
-    }
-    
-    .logo{
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    }
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
