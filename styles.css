@@ -1,11 +1,65 @@
+/* barra de navegacion */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand img{
+    margin-left: 25px;
+    padding: 5px 0px;
+}
+
+/* Estilos Generales */
+
+
+/* Productos*/
+.seccion-titulo{
+    font-size: 2rem;
+    margin: 40px 40px 60px 40px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.seccion-descripcion{
+    font-size: 15px;
+}
+
+.texto-negro{
+    font-weight: bold;
+    background-color: #eaeaea5a;
+    padding: 15px;
+}
+
+/* Productos */
 .product-card {
+    height: 100%;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .product-image {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    margin-bottom: 0;
+}
+
+
+/* Responsivo (adaptable) */
+@media screen and (max-width: 767px) {
+    .seccion-titulo{
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand{
+       display: none;
+    }
+    
 }
