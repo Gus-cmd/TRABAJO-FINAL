@@ -1,0 +1,43 @@
+body {
+ background: url(LOGIN/Background.jpg) no-repeat center center fixed;
+ background-size: cover;
+}
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color:#0dcaf05c;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-group{
+    padding: 10px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.form-control{
+    margin: 10px auto;
+    font-size: 10px;
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin: 10px;
+    font-size: 10px;
+}
+
+
+
+/* Responsive (Adaptativo) */
+@media screen and (min-width: 768px) {
+    body {
+        background-attachment: scroll;
+        font-size: 12px;
+    }
+}
